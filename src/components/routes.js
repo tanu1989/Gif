@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexRedirect, Route, browserHistory } from 'react-router';
-import GifSearch from './GifSearch';
+import GifSearch from './GIFHome/GifSearch';
 
 function getRoutes(store) {
 

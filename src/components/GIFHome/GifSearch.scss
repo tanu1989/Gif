@@ -1,0 +1,55 @@
+#home {
+
+  text-align: center;
+
+  .search-container{
+    margin: 12% 30%;
+    .header {
+      color: #6D9BC3;
+      font-size: 60px;
+      margin: 10px;
+    }
+    .col-sm-2 {
+      margin-top: 3px;
+    }
+    .search-Button {
+      background-image: none;
+      font-size: 13px;
+      color: aliceblue;
+      background-color: #6D9BC3;
+      border: #6D9BC3;
+
+      &:hover {
+        color: white;
+        font-weight: 600;
+        background-color: darken(#6D9BC3, 20%);
+
+      }
+      &:active {
+        color: white;
+      }
+
+      &:focus {
+        color: white;
+        outline: none;
+      }
+    }
+
+  }
+
+
+
+
+
+  .images__grid {
+    margin-left: 12%;
+    margin-right: 12%;
+
+    img {
+      max-height: 300px;
+      max-width: 300px;
+      border: 10px solid white;
+      display: inline;
+    }
+  }
+}

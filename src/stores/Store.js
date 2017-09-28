@@ -10,7 +10,7 @@ const middleware = [sagaMiddleware];
 const composeEnhancers =
     window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
         window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
-            name: 'Chat'
+            name: 'GIF'
         }) : compose;
 
 const enhancer = composeEnhancers(
